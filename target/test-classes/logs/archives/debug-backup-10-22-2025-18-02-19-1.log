@@ -1,0 +1,64 @@
+2025-10-22 17:29:38.142 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-22 17:29:39.069 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-22 17:29:42.659 DEBUG ApplicationKeywords:188 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-22 17:29:42.660 DEBUG ApplicationKeywords:188 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-22 17:29:45.525 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-22 17:29:46.125 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-22 17:29:48.115 DEBUG ApplicationKeywords:188 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-22 17:29:48.116 DEBUG ApplicationKeywords:188 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-22 17:29:48.960 DEBUG ApplicationKeywords:188 - Checking presence of SIGNIN_LINK_xpath
+2025-10-22 17:29:49.004 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-22 17:29:49.599 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-22 17:29:52.705 DEBUG ApplicationKeywords:188 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-22 17:29:52.706 DEBUG ApplicationKeywords:188 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-22 17:29:55.676 DEBUG ApplicationKeywords:188 - Clicking on SIGNIN_LINK_xpath
+2025-10-22 17:29:55.676 DEBUG ApplicationKeywords:188 - Checking presence of SIGNIN_LINK_xpath
+2025-10-22 17:29:56.010 DEBUG ApplicationKeywords:188 - Clearing text field USERNAME_INPUT_xpath
+2025-10-22 17:29:56.010 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-22 17:29:56.060 DEBUG ApplicationKeywords:188 - Typing in USERNAME_INPUT_xpath . Data j2ee
+2025-10-22 17:29:56.060 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-22 17:29:56.108 DEBUG ApplicationKeywords:188 - Clearing text field PASSWORD_INPUT_xpath
+2025-10-22 17:29:56.108 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-22 17:29:56.171 DEBUG ApplicationKeywords:188 - Typing in PASSWORD_INPUT_xpath . Data j2ee
+2025-10-22 17:29:56.172 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-22 17:29:58.232 DEBUG ApplicationKeywords:188 - Clicking on LOGIN_BUTTON_xpath
+2025-10-22 17:29:58.232 DEBUG ApplicationKeywords:188 - Checking presence of LOGIN_BUTTON_xpath
+2025-10-22 17:30:00.957 DEBUG ApplicationKeywords:188 - Checking presence of SIGNOUT_LINK_xpath
+2025-10-22 17:30:01.301 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-22 17:30:01.896 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-22 17:30:03.873 DEBUG ApplicationKeywords:188 - Checking presence of HOME_PAGE_TITLE
+2025-10-22 17:30:03.997 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-22 17:30:04.551 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-22 17:30:06.524 DEBUG ApplicationKeywords:188 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-22 17:30:06.525 DEBUG ApplicationKeywords:188 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-22 17:30:09.385 DEBUG ApplicationKeywords:188 - Clicking on SIGNIN_LINK_xpath
+2025-10-22 17:30:09.385 DEBUG ApplicationKeywords:188 - Checking presence of SIGNIN_LINK_xpath
+2025-10-22 17:30:09.734 DEBUG ApplicationKeywords:188 - Clearing text field USERNAME_INPUT_xpath
+2025-10-22 17:30:09.734 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-22 17:30:09.777 DEBUG ApplicationKeywords:188 - Typing in USERNAME_INPUT_xpath . Data j2ee
+2025-10-22 17:30:09.777 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-22 17:30:09.815 DEBUG ApplicationKeywords:188 - Clearing text field PASSWORD_INPUT_xpath
+2025-10-22 17:30:09.815 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-22 17:30:09.868 DEBUG ApplicationKeywords:188 - Typing in PASSWORD_INPUT_xpath . Data j2ee
+2025-10-22 17:30:09.868 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-22 17:30:11.954 DEBUG ApplicationKeywords:188 - Clicking on LOGIN_BUTTON_xpath
+2025-10-22 17:30:11.955 DEBUG ApplicationKeywords:188 - Checking presence of LOGIN_BUTTON_xpath
+2025-10-22 17:30:14.747 DEBUG ApplicationKeywords:188 - Clicking on BIRDS_LOCATOR_xpath
+2025-10-22 17:30:14.747 DEBUG ApplicationKeywords:188 - Checking presence of BIRDS_LOCATOR_xpath
+2025-10-22 17:30:14.798 DEBUG ApplicationKeywords:188 - Checking presence of BIRDTABLE_LOCATOR_xpath
+2025-10-22 17:31:14.851 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-22 17:31:15.388 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-22 17:31:17.367 DEBUG ApplicationKeywords:188 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-22 17:31:17.369 DEBUG ApplicationKeywords:188 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-22 17:31:20.216 DEBUG ApplicationKeywords:188 - Clicking on SIGNIN_LINK_xpath
+2025-10-22 17:31:20.217 DEBUG ApplicationKeywords:188 - Checking presence of SIGNIN_LINK_xpath
+2025-10-22 17:31:20.544 DEBUG ApplicationKeywords:188 - Clearing text field USERNAME_INPUT_xpath
+2025-10-22 17:31:20.544 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-22 17:31:20.586 DEBUG ApplicationKeywords:188 - Typing in USERNAME_INPUT_xpath . Data j2ee
+2025-10-22 17:31:20.587 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-22 17:31:20.622 DEBUG ApplicationKeywords:188 - Clearing text field PASSWORD_INPUT_xpath
+2025-10-22 17:31:20.622 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-22 17:31:20.676 DEBUG ApplicationKeywords:188 - Typing in PASSWORD_INPUT_xpath . Data j2ee
+2025-10-22 17:31:20.676 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-22 17:31:22.722 DEBUG ApplicationKeywords:188 - Clicking on LOGIN_BUTTON_xpath
+2025-10-22 17:31:22.723 DEBUG ApplicationKeywords:188 - Checking presence of LOGIN_BUTTON_xpath

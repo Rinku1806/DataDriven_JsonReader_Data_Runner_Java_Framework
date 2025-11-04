@@ -1,0 +1,128 @@
+2025-10-23 19:41:42.759 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-23 19:41:43.728 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-23 19:41:45.737 DEBUG ApplicationKeywords:188 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-23 19:41:45.738 DEBUG ApplicationKeywords:188 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-23 19:41:48.665 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-23 19:41:49.265 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-23 19:41:51.309 DEBUG ApplicationKeywords:188 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-23 19:41:51.311 DEBUG ApplicationKeywords:188 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-23 19:41:52.189 DEBUG ApplicationKeywords:188 - Checking presence of SIGNIN_LINK_xpath
+2025-10-23 19:41:52.231 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-23 19:41:52.807 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-23 19:41:55.881 DEBUG ApplicationKeywords:188 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-23 19:41:55.882 DEBUG ApplicationKeywords:188 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-23 19:41:58.940 DEBUG ApplicationKeywords:188 - Clicking on SIGNIN_LINK_xpath
+2025-10-23 19:41:58.940 DEBUG ApplicationKeywords:188 - Checking presence of SIGNIN_LINK_xpath
+2025-10-23 19:41:59.316 DEBUG ApplicationKeywords:188 - Clearing text field USERNAME_INPUT_xpath
+2025-10-23 19:41:59.316 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-23 19:41:59.371 DEBUG ApplicationKeywords:188 - Typing in USERNAME_INPUT_xpath . Data j2ee
+2025-10-23 19:41:59.371 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-23 19:41:59.422 DEBUG ApplicationKeywords:188 - Clearing text field PASSWORD_INPUT_xpath
+2025-10-23 19:41:59.422 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-23 19:41:59.478 DEBUG ApplicationKeywords:188 - Typing in PASSWORD_INPUT_xpath . Data j2ee
+2025-10-23 19:41:59.479 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-23 19:42:01.544 DEBUG ApplicationKeywords:188 - Clicking on LOGIN_BUTTON_xpath
+2025-10-23 19:42:01.544 DEBUG ApplicationKeywords:188 - Checking presence of LOGIN_BUTTON_xpath
+2025-10-23 19:42:04.333 DEBUG ApplicationKeywords:188 - Checking presence of SIGNOUT_LINK_xpath
+2025-10-23 19:42:04.683 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-23 19:42:05.270 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-23 19:42:07.452 DEBUG ApplicationKeywords:188 - Checking presence of HOME_PAGE_TITLE
+2025-10-23 19:42:07.577 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-23 19:42:08.137 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-23 19:42:10.450 DEBUG ApplicationKeywords:188 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-23 19:42:10.451 DEBUG ApplicationKeywords:188 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-23 19:42:13.408 DEBUG ApplicationKeywords:188 - Clicking on SIGNIN_LINK_xpath
+2025-10-23 19:42:13.408 DEBUG ApplicationKeywords:188 - Checking presence of SIGNIN_LINK_xpath
+2025-10-23 19:42:13.794 DEBUG ApplicationKeywords:188 - Clearing text field USERNAME_INPUT_xpath
+2025-10-23 19:42:13.794 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-23 19:42:13.841 DEBUG ApplicationKeywords:188 - Typing in USERNAME_INPUT_xpath . Data j2ee
+2025-10-23 19:42:13.841 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-23 19:42:13.889 DEBUG ApplicationKeywords:188 - Clearing text field PASSWORD_INPUT_xpath
+2025-10-23 19:42:13.889 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-23 19:42:13.947 DEBUG ApplicationKeywords:188 - Typing in PASSWORD_INPUT_xpath . Data j2ee
+2025-10-23 19:42:13.948 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-23 19:42:16.002 DEBUG ApplicationKeywords:188 - Clicking on LOGIN_BUTTON_xpath
+2025-10-23 19:42:16.003 DEBUG ApplicationKeywords:188 - Checking presence of LOGIN_BUTTON_xpath
+2025-10-23 19:42:18.816 DEBUG ApplicationKeywords:188 - Clicking on BIRDS_LOCATOR_xpath
+2025-10-23 19:42:18.816 DEBUG ApplicationKeywords:188 - Checking presence of BIRDS_LOCATOR_xpath
+2025-10-23 19:42:18.879 DEBUG ApplicationKeywords:188 - Checking presence of BIRDTABLE_LOCATOR_xpath
+2025-10-23 19:43:18.971 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-23 19:43:19.510 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-23 19:43:21.591 DEBUG ApplicationKeywords:188 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-23 19:43:21.591 DEBUG ApplicationKeywords:188 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-23 19:43:24.432 DEBUG ApplicationKeywords:188 - Clicking on SIGNIN_LINK_xpath
+2025-10-23 19:43:24.434 DEBUG ApplicationKeywords:188 - Checking presence of SIGNIN_LINK_xpath
+2025-10-23 19:43:24.778 DEBUG ApplicationKeywords:188 - Clearing text field USERNAME_INPUT_xpath
+2025-10-23 19:43:24.778 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-23 19:43:24.825 DEBUG ApplicationKeywords:188 - Typing in USERNAME_INPUT_xpath . Data j2ee
+2025-10-23 19:43:24.825 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-23 19:43:24.866 DEBUG ApplicationKeywords:188 - Clearing text field PASSWORD_INPUT_xpath
+2025-10-23 19:43:24.866 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-23 19:43:24.931 DEBUG ApplicationKeywords:188 - Typing in PASSWORD_INPUT_xpath . Data j2ee
+2025-10-23 19:43:24.931 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-23 19:43:27.005 DEBUG ApplicationKeywords:188 - Clicking on LOGIN_BUTTON_xpath
+2025-10-23 19:43:27.006 DEBUG ApplicationKeywords:188 - Checking presence of LOGIN_BUTTON_xpath
+2025-10-23 19:50:54.771 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-23 19:50:55.720 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-23 19:50:57.709 DEBUG ApplicationKeywords:188 - Checking presence of HOME_PAGE_TITLE
+2025-10-23 19:50:58.016 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-23 19:50:58.609 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-23 19:51:00.593 DEBUG ApplicationKeywords:188 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-23 19:51:00.594 DEBUG ApplicationKeywords:188 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-23 19:51:01.442 DEBUG ApplicationKeywords:188 - Checking presence of SIGNIN_LINK_xpath
+2025-10-23 19:51:01.595 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-23 19:51:02.148 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-23 19:51:04.134 DEBUG ApplicationKeywords:188 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-23 19:51:04.135 DEBUG ApplicationKeywords:188 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-23 19:51:07.153 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-23 19:51:07.700 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-23 19:51:10.670 DEBUG ApplicationKeywords:188 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-23 19:51:10.670 DEBUG ApplicationKeywords:188 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-23 19:51:13.556 DEBUG ApplicationKeywords:188 - Clicking on SIGNIN_LINK_xpath
+2025-10-23 19:51:13.557 DEBUG ApplicationKeywords:188 - Checking presence of SIGNIN_LINK_xpath
+2025-10-23 19:51:14.011 DEBUG ApplicationKeywords:188 - Clearing text field USERNAME_INPUT_xpath
+2025-10-23 19:51:14.011 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-23 19:51:14.054 DEBUG ApplicationKeywords:188 - Typing in USERNAME_INPUT_xpath . Data j2ee
+2025-10-23 19:51:14.054 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-23 19:51:14.097 DEBUG ApplicationKeywords:188 - Clearing text field PASSWORD_INPUT_xpath
+2025-10-23 19:51:14.097 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-23 19:51:14.155 DEBUG ApplicationKeywords:188 - Typing in PASSWORD_INPUT_xpath . Data j2ee
+2025-10-23 19:51:14.155 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-23 19:51:16.214 DEBUG ApplicationKeywords:188 - Clicking on LOGIN_BUTTON_xpath
+2025-10-23 19:51:16.214 DEBUG ApplicationKeywords:188 - Checking presence of LOGIN_BUTTON_xpath
+2025-10-23 19:51:18.908 DEBUG ApplicationKeywords:188 - Checking presence of SIGNOUT_LINK_xpath
+2025-10-23 19:51:19.088 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-23 19:51:19.616 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-23 19:51:21.590 DEBUG ApplicationKeywords:188 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-23 19:51:21.591 DEBUG ApplicationKeywords:188 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-23 19:51:24.426 DEBUG ApplicationKeywords:188 - Clicking on SIGNIN_LINK_xpath
+2025-10-23 19:51:24.427 DEBUG ApplicationKeywords:188 - Checking presence of SIGNIN_LINK_xpath
+2025-10-23 19:51:24.803 DEBUG ApplicationKeywords:188 - Clearing text field USERNAME_INPUT_xpath
+2025-10-23 19:51:24.804 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-23 19:51:24.844 DEBUG ApplicationKeywords:188 - Typing in USERNAME_INPUT_xpath . Data j2ee
+2025-10-23 19:51:24.844 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-23 19:51:24.878 DEBUG ApplicationKeywords:188 - Clearing text field PASSWORD_INPUT_xpath
+2025-10-23 19:51:24.879 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-23 19:51:24.932 DEBUG ApplicationKeywords:188 - Typing in PASSWORD_INPUT_xpath . Data j2ee
+2025-10-23 19:51:24.932 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-23 19:51:26.984 DEBUG ApplicationKeywords:188 - Clicking on LOGIN_BUTTON_xpath
+2025-10-23 19:51:26.984 DEBUG ApplicationKeywords:188 - Checking presence of LOGIN_BUTTON_xpath
+2025-10-23 19:51:29.926 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
+2025-10-23 19:51:30.468 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
+2025-10-23 19:51:32.442 DEBUG ApplicationKeywords:188 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-23 19:51:32.443 DEBUG ApplicationKeywords:188 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-23 19:51:35.282 DEBUG ApplicationKeywords:188 - Clicking on SIGNIN_LINK_xpath
+2025-10-23 19:51:35.284 DEBUG ApplicationKeywords:188 - Checking presence of SIGNIN_LINK_xpath
+2025-10-23 19:51:35.630 DEBUG ApplicationKeywords:188 - Clearing text field USERNAME_INPUT_xpath
+2025-10-23 19:51:35.630 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-23 19:51:35.672 DEBUG ApplicationKeywords:188 - Typing in USERNAME_INPUT_xpath . Data j2ee
+2025-10-23 19:51:35.672 DEBUG ApplicationKeywords:188 - Checking presence of USERNAME_INPUT_xpath
+2025-10-23 19:51:35.709 DEBUG ApplicationKeywords:188 - Clearing text field PASSWORD_INPUT_xpath
+2025-10-23 19:51:35.709 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-23 19:51:35.762 DEBUG ApplicationKeywords:188 - Typing in PASSWORD_INPUT_xpath . Data j2ee
+2025-10-23 19:51:35.762 DEBUG ApplicationKeywords:188 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-23 19:51:37.818 DEBUG ApplicationKeywords:188 - Clicking on LOGIN_BUTTON_xpath
+2025-10-23 19:51:37.818 DEBUG ApplicationKeywords:188 - Checking presence of LOGIN_BUTTON_xpath
+2025-10-23 19:51:40.607 DEBUG ApplicationKeywords:188 - Clicking on BIRDS_LOCATOR_xpath
+2025-10-23 19:51:40.607 DEBUG ApplicationKeywords:188 - Checking presence of BIRDS_LOCATOR_xpath
+2025-10-23 19:51:40.653 DEBUG ApplicationKeywords:188 - Checking presence of BIRDTABLE_LOCATOR_xpath

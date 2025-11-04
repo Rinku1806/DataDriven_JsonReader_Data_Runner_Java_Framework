@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="JPetStore">
+	<listeners>
+		<listener class-name="listener.MyTestNGListener"></listener>
+	</listeners>
+	
+	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDrivenFramework_Javab_JsonRunner\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
+	<parameter name="browsername" value="Chrome" />
+	<parameter name="runmode" value="Y" />
+	<parameter name="iteration" value="1" />
+	<parameter name="suitename" value="JPetStore" />
+	<parameter name="dataflag" value="VerifyHomePageTitle" />
+	<test thread-count="1" name="VerifyHomePageTitle">
+		<classes>
+			<class name="testcases.HomePageTest">
+				<methods>
+					<include name="VerifyHomePageTitle" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDrivenFramework_Javab_JsonRunner\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
+	<parameter name="browsername" value="Chrome" />
+	<parameter name="runmode" value="Y" />
+	<parameter name="iteration" value="1" />
+	<parameter name="suitename" value="JPetStore" />
+	<parameter name="dataflag" value="VerifySignInButtonPresence" />
+	<test thread-count="1" name="VerifySignInButtonPresence">
+		<classes>
+			<class name="testcases.StoreEntryTest">
+				<methods>
+					<include name="VerifySignInButtonPresence" />					
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDrivenFramework_Javab_JsonRunner\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
+	<parameter name="browsername" value="Chrome" />
+	<parameter name="runmode" value="Y" />
+	<parameter name="iteration" value="1" />
+	<parameter name="suitename" value="JPetStore" />
+	<parameter name="dataflag" value="VerifyStoreEntryTitle" />
+	<test thread-count="1" name="VerifyStoreEntryTitle">
+		<classes>
+			<class name="testcases.StoreEntryTest">
+				<methods>					
+					<include name="VerifyStoreEntryTitle" />					
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDrivenFramework_Javab_JsonRunner\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
+	<parameter name="browsername" value="Chrome" />
+	<parameter name="runmode" value="Y" />
+	<parameter name="iteration" value="1" />
+	<parameter name="suitename" value="JPetStore" />
+	<parameter name="dataflag" value="Verifylogin" />	
+	<test thread-count="1" name="Verifylogin">
+		<classes>
+			<class name="testcases.StoreEntryTest">
+				<methods>					
+					<include name="Verifylogin" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDrivenFramework_Javab_JsonRunner\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
+	<parameter name="browsername" value="Chrome" />
+	<parameter name="runmode" value="Y" />
+	<parameter name="iteration" value="1" />
+	<parameter name="suitename" value="JPetStore" />
+	<parameter name="dataflag" value="verifyAvailablePets" />
+	<test thread-count="1" name="verifyAvailablePets">
+		<classes>
+			<class name="testcases.DashBoardTest">
+				<methods>
+					<include name="verifyAvailablePets" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDrivenFramework_Javab_JsonRunner\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
+	<parameter name="browsername" value="Chrome" />
+	<parameter name="runmode" value="Y" />
+	<parameter name="iteration" value="1" />
+	<parameter name="suitename" value="JPetStore" />
+	<parameter name="dataflag" value="verifyAllPets" />
+	<test thread-count="1" name="verifyAllPets">
+		<classes>
+			<class name="testcases.DashBoardTest">
+				<methods>
+					<include name="verifyAllPets" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

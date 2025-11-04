@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JPetStore]" guice-stage="DEVELOPMENT">
+  <parameter name="runmode" value="Y"/>
+  <parameter name="iteration" value="1"/>
+  <parameter name="suitename" value="JPetStore"/>
+  <parameter name="browsername" value="Chrome"/>
+  <parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDrivenFramework_Javab_JsonRunner\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
+  <parameter name="dataflag" value="verifyAllPets"/>
+  <listeners>
+    <listener class-name="listener.MyTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="verifyAllPets(failed)">
+    <classes>
+      <class name="testcases.DashBoardTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="verifyAllPets" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.DashBoardTest -->
+    </classes>
+  </test> <!-- verifyAllPets(failed) -->
+</suite> <!-- Failed suite [JPetStore] -->

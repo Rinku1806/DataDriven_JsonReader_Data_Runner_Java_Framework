@@ -1,0 +1,14 @@
+{
+"browsers":["Chrome","Mozilla"],
+"parallelsuites":"1",
+"testsuites":[
+	{
+	 "runmode":"Y",
+	 "name":"JPetStore Suite",
+	 "testdatajsonfile":"data//jpetstoredata.json",
+	 "testdataxlsfile":"excel//Data.xlsx",
+	 "suitefilename":"suites//jpetstoresuite.json",
+	 "paralleltests":"N"
+	}
+]
+}

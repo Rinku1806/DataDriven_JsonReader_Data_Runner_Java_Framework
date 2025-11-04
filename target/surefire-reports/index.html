@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-JPetStore" class="navigator-link">
+              <span class="suite-name border-failed">JPetStore</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-JPetStore" class="navigator-link ">
+                    <span>C:\Users\MSI\eclipse-workspace\DataDrivenFramework_Javab_JsonRunner\src\test\resources\JPetStore.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-JPetStore" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-JPetStore" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-JPetStore" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-JPetStore" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-JPetStore" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-JPetStore" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-JPetStore" class="hide-methods failed suite-JPetStore"> (hide)</a> <!-- hide-methods failed suite-JPetStore -->
+                      <a href="#" panel-name="suite-JPetStore" class="show-methods failed suite-JPetStore"> (show)</a> <!-- show-methods failed suite-JPetStore -->
+                    </span>
+                    <div class="method-list-content failed suite-JPetStore">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JPetStore" title="testcases.DashBoardTest" class="method navigator-link" hash-for-method="verifyAllPets(org.testng.TestRunner@4aaecabd)">verifyAllPets(org.testng.TestRunner@4aaecabd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-JPetStore -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-JPetStore" class="hide-methods passed suite-JPetStore"> (hide)</a> <!-- hide-methods passed suite-JPetStore -->
+                      <a href="#" panel-name="suite-JPetStore" class="show-methods passed suite-JPetStore"> (show)</a> <!-- show-methods passed suite-JPetStore -->
+                    </span>
+                    <div class="method-list-content passed suite-JPetStore">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JPetStore" title="testcases.HomePageTest" class="method navigator-link" hash-for-method="VerifyHomePageTitle(org.testng.TestRunner@3af356f)">VerifyHomePageTitle(org.testng.TestRunner@3af356f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JPetStore" title="testcases.StoreEntryTest" class="method navigator-link" hash-for-method="VerifySignInButtonPresence(org.testng.TestRunner@63300c4b)">VerifySignInButtonPresence(org.testng.TestRunner@63300c4b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JPetStore" title="testcases.StoreEntryTest" class="method navigator-link" hash-for-method="VerifyStoreEntryTitle(org.testng.TestRunner@72b6832e)">VerifyStoreEntryTitle(org.testng.TestRunner@72b6832e)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JPetStore" title="testcases.StoreEntryTest" class="method navigator-link" hash-for-method="Verifylogin(org.testng.TestRunner@1c57f6b2)">Verifylogin(org.testng.TestRunner@1c57f6b2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JPetStore" title="testcases.DashBoardTest" class="method navigator-link" hash-for-method="verifyAvailablePets(org.testng.TestRunner@c3719e5)">verifyAvailablePets(org.testng.TestRunner@c3719e5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-JPetStore -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-JPetStore" class="panel JPetStore">
+          <div class="suite-JPetStore-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.DashBoardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllPets(org.testng.TestRunner@4aaecabd)">
+                  </a> <!-- verifyAllPets(org.testng.TestRunner@4aaecabd) -->
+                  <span class="method-name">verifyAllPets</span>
+                  <span class="parameters">(org.testng.TestRunner@4aaecabd)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;Catalog&apos;]/table/tbody&quot;}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4e0179b655c2d7c930cbb296506ab7c7, findElement {using=xpath, value=//*[@id=&apos;Catalog&apos;]/table/tbody}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\MSI\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61069}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61069/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e0179b655c2d7c930cbb296506ab7c7
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at keywords.GenericKeywords.getElement(GenericKeywords.java:138)
+	at testcases.DashBoardTest.verifyAllPets(DashBoardTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JPetStore-class-failed -->
+          <div class="suite-JPetStore-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.StoreEntryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySignInButtonPresence(org.testng.TestRunner@63300c4b)">
+                  </a> <!-- VerifySignInButtonPresence(org.testng.TestRunner@63300c4b) -->
+                  <span class="method-name">VerifySignInButtonPresence</span>
+                  <span class="parameters">(org.testng.TestRunner@63300c4b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyStoreEntryTitle(org.testng.TestRunner@72b6832e)">
+                  </a> <!-- VerifyStoreEntryTitle(org.testng.TestRunner@72b6832e) -->
+                  <span class="method-name">VerifyStoreEntryTitle</span>
+                  <span class="parameters">(org.testng.TestRunner@72b6832e)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifylogin(org.testng.TestRunner@1c57f6b2)">
+                  </a> <!-- Verifylogin(org.testng.TestRunner@1c57f6b2) -->
+                  <span class="method-name">Verifylogin</span>
+                  <span class="parameters">(org.testng.TestRunner@1c57f6b2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JPetStore-class-passed -->
+          <div class="suite-JPetStore-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.DashBoardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailablePets(org.testng.TestRunner@c3719e5)">
+                  </a> <!-- verifyAvailablePets(org.testng.TestRunner@c3719e5) -->
+                  <span class="method-name">verifyAvailablePets</span>
+                  <span class="parameters">(org.testng.TestRunner@c3719e5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JPetStore-class-passed -->
+          <div class="suite-JPetStore-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyHomePageTitle(org.testng.TestRunner@3af356f)">
+                  </a> <!-- VerifyHomePageTitle(org.testng.TestRunner@3af356f) -->
+                  <span class="method-name">VerifyHomePageTitle</span>
+                  <span class="parameters">(org.testng.TestRunner@3af356f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JPetStore-class-passed -->
+        </div> <!-- panel JPetStore -->
+        <div panel-name="test-xml-JPetStore" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\MSI\eclipse-workspace\DataDrivenFramework_Javab_JsonRunner\src\test\resources\JPetStore.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;JPetStore&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;runmode&quot; value=&quot;Y&quot;/&gt;
+  &lt;parameter name=&quot;iteration&quot; value=&quot;1&quot;/&gt;
+  &lt;parameter name=&quot;suitename&quot; value=&quot;JPetStore&quot;/&gt;
+  &lt;parameter name=&quot;browsername&quot; value=&quot;Chrome&quot;/&gt;
+  &lt;parameter name=&quot;datafilepath&quot; value=&quot;C:\\Users\\MSI\\eclipse-workspace\\DataDrivenFramework_Javab_JsonRunner\\src\\test\\resources\\jsons\\data\\jpetstoredata.json&quot;/&gt;
+  &lt;parameter name=&quot;dataflag&quot; value=&quot;verifyAllPets&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listener.MyTestNGListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;VerifyHomePageTitle&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.HomePageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;VerifyHomePageTitle&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.HomePageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VerifyHomePageTitle --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;VerifySignInButtonPresence&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.StoreEntryTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;VerifySignInButtonPresence&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.StoreEntryTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VerifySignInButtonPresence --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;VerifyStoreEntryTitle&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.StoreEntryTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;VerifyStoreEntryTitle&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.StoreEntryTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VerifyStoreEntryTitle --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Verifylogin&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.StoreEntryTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Verifylogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.StoreEntryTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verifylogin --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;verifyAvailablePets&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.DashBoardTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyAvailablePets&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.DashBoardTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- verifyAvailablePets --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;verifyAllPets&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.DashBoardTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyAllPets&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.DashBoardTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- verifyAllPets --&gt;
+&lt;/suite&gt; &lt;!-- JPetStore --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-JPetStore" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for JPetStore</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">VerifyHomePageTitle (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VerifySignInButtonPresence (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VerifyStoreEntryTitle (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verifylogin (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">verifyAvailablePets (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">verifyAllPets (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-JPetStore" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for JPetStore</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-JPetStore" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for JPetStore</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_JPetStore');
+function tableData_JPetStore() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyAllPets')
+data.setCell(0, 2, 'testcases.DashBoardTest')
+data.setCell(0, 3, 70847);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Verifylogin')
+data.setCell(1, 2, 'testcases.StoreEntryTest')
+data.setCell(1, 3, 11669);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAvailablePets')
+data.setCell(2, 2, 'testcases.DashBoardTest')
+data.setCell(2, 3, 10770);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyStoreEntryTitle')
+data.setCell(3, 2, 'testcases.StoreEntryTest')
+data.setCell(3, 3, 5410);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifySignInButtonPresence')
+data.setCell(4, 2, 'testcases.StoreEntryTest')
+data.setCell(4, 3, 3414);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyHomePageTitle')
+data.setCell(5, 2, 'testcases.HomePageTest')
+data.setCell(5, 3, 2901);
+window.suiteTableData['JPetStore']= { tableData: data, tableDiv: 'times-div-JPetStore'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-JPetStore">
+              </div> <!-- times-div-JPetStore -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-JPetStore" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for JPetStore</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-JPetStore" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.StoreEntryTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">VerifyStoreEntryTitle</span>
+                <br/>
+                <span class="ignored-method-name">Verifylogin</span>
+                <br/>
+                <span class="ignored-method-name">Verifylogin</span>
+                <br/>
+                <span class="ignored-method-name">VerifySignInButtonPresence</span>
+                <br/>
+                <span class="ignored-method-name">VerifySignInButtonPresence</span>
+                <br/>
+                <span class="ignored-method-name">VerifyStoreEntryTitle</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.DashBoardTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyAllPets</span>
+                <br/>
+                <span class="ignored-method-name">verifyAvailablePets</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-JPetStore" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@3af356f)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@3af356f)</span>
+                <span class="method-start">440 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyHomePageTitle(org.testng.TestRunner@3af356f)</span>
+                <span class="method-start">484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quit(org.testng.TestRunner@3af356f)</span>
+                <span class="method-start">3394 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.StoreEntryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@63300c4b)</span>
+                <span class="method-start">3713 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@63300c4b)</span>
+                <span class="method-start">3716 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifySignInButtonPresence(org.testng.TestRunner@63300c4b)</span>
+                <span class="method-start">3717 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quit(org.testng.TestRunner@63300c4b)</span>
+                <span class="method-start">7133 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@72b6832e)</span>
+                <span class="method-start">7246 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@72b6832e)</span>
+                <span class="method-start">7248 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyStoreEntryTitle(org.testng.TestRunner@72b6832e)</span>
+                <span class="method-start">7249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quit(org.testng.TestRunner@72b6832e)</span>
+                <span class="method-start">12660 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@1c57f6b2)</span>
+                <span class="method-start">12804 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@1c57f6b2)</span>
+                <span class="method-start">12806 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verifylogin(org.testng.TestRunner@1c57f6b2)</span>
+                <span class="method-start">12807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quit(org.testng.TestRunner@1c57f6b2)</span>
+                <span class="method-start">24479 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DashBoardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@c3719e5)</span>
+                <span class="method-start">24628 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@c3719e5)</span>
+                <span class="method-start">24629 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailablePets(org.testng.TestRunner@c3719e5)</span>
+                <span class="method-start">24631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quit(org.testng.TestRunner@c3719e5)</span>
+                <span class="method-start">35404 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@4aaecabd)</span>
+                <span class="method-start">35535 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@4aaecabd)</span>
+                <span class="method-start">35536 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyAllPets(org.testng.TestRunner@4aaecabd)</span>
+                <span class="method-start">35538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quit(org.testng.TestRunner@4aaecabd)</span>
+                <span class="method-start">106390 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

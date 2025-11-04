@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Thu Oct 23 20:51:17 IST 2025","Thu Oct 23 20:52:28 IST 2025","70848","JPetStore","verifyAllPets","testcases.DashBoardTest","testcases.DashBoardTest","verifyAllPets","verifyAllPets",""
+"passed","Thu Oct 23 20:50:42 IST 2025","Thu Oct 23 20:50:45 IST 2025","2877","JPetStore","VerifyHomePageTitle","testcases.HomePageTest","testcases.HomePageTest","VerifyHomePageTitle","VerifyHomePageTitle",""
+"passed","Thu Oct 23 20:50:54 IST 2025","Thu Oct 23 20:51:06 IST 2025","11669","JPetStore","Verifylogin","testcases.StoreEntryTest","testcases.StoreEntryTest","Verifylogin","Verifylogin",""
+"passed","Thu Oct 23 20:50:49 IST 2025","Thu Oct 23 20:50:54 IST 2025","5409","JPetStore","VerifyStoreEntryTitle","testcases.StoreEntryTest","testcases.StoreEntryTest","VerifyStoreEntryTitle","VerifyStoreEntryTitle",""
+"passed","Thu Oct 23 20:50:45 IST 2025","Thu Oct 23 20:50:49 IST 2025","3412","JPetStore","VerifySignInButtonPresence","testcases.StoreEntryTest","testcases.StoreEntryTest","VerifySignInButtonPresence","VerifySignInButtonPresence",""
+"passed","Thu Oct 23 20:51:06 IST 2025","Thu Oct 23 20:51:17 IST 2025","10771","JPetStore","verifyAvailablePets","testcases.DashBoardTest","testcases.DashBoardTest","verifyAvailablePets","verifyAvailablePets",""

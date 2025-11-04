@@ -1,0 +1,44 @@
+{
+   "suitename":"JPetStore Suite", 
+     "testcases":[
+      {
+       "name":"StoreEntryTestCases",
+       "parameternames":["browserName", "runmode","username","password"],
+	   "executions":[
+		   {
+		   "runmode":"Y",
+		   "executionname":"VerifyStoreEntryTitle",
+		   "dataflag":"VerifyStoreEntryTitle",
+		   "parametervalues":["chrome","Y","j2ee","j2ee"],
+		   "methods":["VerifyStoreEntryTitle","VerifySignInButtonPresence","Verifylogin"]
+		   }
+	   ] 
+      },
+      {
+       "name":"HomePageTestCases",
+       "parameternames":["browserName", "runmode","username","password"],
+	   "executions":[
+		   {
+		   "runmode":"Y",
+		   "executionname":"VerifySignInButtonPresence",
+		   "dataflag":"VerifySignInButtonPresence",
+		   "parametervalues":["chrome","Y","j2ee","j2ee"],
+		   "methods":["VerifyHomePageTitle"]
+		   }
+	   ] 
+      },
+      {
+       "name":"DashBoardTestCases",
+       "parameternames":["browserName", "runmode","username","password"],
+	   "executions":[
+		   {
+		   "runmode":"Y",
+		   "executionname":"Verifylogin",
+		   "dataflag":"Verifylogin",
+		   "parametervalues":["chrome","Y","j2ee","j2ee"],
+		   "methods":["verifyAllPets","verifyAvailablePets"]
+		   }
+	   ] 
+      }       
+    ]
+}
