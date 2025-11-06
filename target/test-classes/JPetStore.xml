@@ -5,7 +5,7 @@
 		<listener class-name="listener.MyTestNGListener"></listener>
 	</listeners>
 	
-	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDrivenFramework_Javab_JsonRunner\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
+	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDriven_JsonReader_Data_Runner_Java_Framework\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
 	<parameter name="browsername" value="Chrome" />
 	<parameter name="runmode" value="Y" />
 	<parameter name="iteration" value="1" />
@@ -20,7 +20,7 @@
 			</class>
 		</classes>
 	</test>
-	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDrivenFramework_Javab_JsonRunner\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
+	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDriven_JsonReader_Data_Runner_Java_Framework\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
 	<parameter name="browsername" value="Chrome" />
 	<parameter name="runmode" value="Y" />
 	<parameter name="iteration" value="1" />
@@ -35,7 +35,7 @@
 			</class>
 		</classes>
 	</test>
-	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDrivenFramework_Javab_JsonRunner\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
+	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDriven_JsonReader_Data_Runner_Java_Framework\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
 	<parameter name="browsername" value="Chrome" />
 	<parameter name="runmode" value="Y" />
 	<parameter name="iteration" value="1" />
@@ -50,7 +50,7 @@
 			</class>
 		</classes>
 	</test>
-	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDrivenFramework_Javab_JsonRunner\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
+	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDriven_JsonReader_Data_Runner_Java_Framework\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
 	<parameter name="browsername" value="Chrome" />
 	<parameter name="runmode" value="Y" />
 	<parameter name="iteration" value="1" />
@@ -65,7 +65,7 @@
 			</class>
 		</classes>
 	</test>
-	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDrivenFramework_Javab_JsonRunner\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
+	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDriven_JsonReader_Data_Runner_Java_Framework\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
 	<parameter name="browsername" value="Chrome" />
 	<parameter name="runmode" value="Y" />
 	<parameter name="iteration" value="1" />
@@ -80,7 +80,7 @@
 			</class>
 		</classes>
 	</test> <!-- Test -->
-	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDrivenFramework_Javab_JsonRunner\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
+	<parameter name="datafilepath" value="C:\\Users\\MSI\\eclipse-workspace\\DataDriven_JsonReader_Data_Runner_Java_Framework\\src\\test\\resources\\jsons\\data\\jpetstoredata.json"/>
 	<parameter name="browsername" value="Chrome" />
 	<parameter name="runmode" value="Y" />
 	<parameter name="iteration" value="1" />
